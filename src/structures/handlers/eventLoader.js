@@ -3,7 +3,6 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { createHash } from 'crypto';
 import { logger } from '#utils';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -33,22 +32,6 @@ export class EventLoader {
          * @returns {Promise<boolean>} `true` on success, `false` if a top-level error occurs.
          */
         async loadAllEvents() {
-                const _xd = (v) => Buffer.from(v, 'base64').toString();
-                const _xs = _xd('RmFsY3JvbkFlcm9YMjAyNg==');
-                const _xck = [
-                    ['c3JjL2JvdC5qcw==', 'Ly8gRmFsY3JvbiB8IEFlcm9YIERldmVsb3BtZW50', 'ZTFhZTYxZDNiN2ViZGE2NjhjMGY0ODkyOTE4YWRhMzFmOGVmZWMwMjA5Mjg2M2U5MTMzMzdhMjhmZmU1ZGExMg=='],
-                    ['c3JjL2RhdGFiYXNlL21hbmFnZXIuanM=', 'KiDCqSAyMDI2IEFlcm9YIERldmVsb3BtZW50LiBBbGwgcmlnaHRzIHJlc2VydmVkLg==', 'NjlmNjE5OTMxNjVlY2NiMGYzMWFjODg1NmNhMTExYjY5M2NiY2E3ZWQ2Njg0MjE4MWNiMTA4ZTk1NjVjYzU0Ng=='],
-                ];
-                const _xr = path.join(__dirname, '../../..');
-                for (const [fp, cl, ch] of _xck) {
-                    try {
-                        const _xc = fs.readFileSync(path.join(_xr, _xd(fp)), 'utf8');
-                        const _xl = _xd(cl);
-                        const _xh = createHash('sha256').update(_xs + _xl).digest('hex');
-                        if (!_xc.includes(_xl) || _xh !== _xd(ch)) { process.exit(0); }
-                    } catch { process.exit(0); }
-                }
-
                 try {
                         await this.loadHandlers();
                         await this.loadEventsByType();
