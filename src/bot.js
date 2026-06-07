@@ -6,8 +6,15 @@ process.emitWarning = (warning, ...args) => {
     return _emitWarning(warning, ...args);
 };
 
+import http from 'node:http';
 import { Bot } from '#classes/client';
 import { logger } from '#utils';
+
+const server = http.createServer((_req, res) => {
+        res.writeHead(200, { 'Content-Type': 'text/plain' });
+        res.end('Falcron Bot is running');
+});
+server.listen(process.env.PORT || 3000);
 
 const c = (r, g, b) => (t) => `\x1b[38;2;${r};${g};${b}m${t}\x1b[0m`;
 const bold = (t) => `\x1b[1m${t}\x1b[0m`;
