@@ -1,5 +1,5 @@
-// Falcron | AeroX Development
-// Author: itsfizys
+// Falcron
+// Author: mayankitscsb-droid
 import { Command } from '#command';
 import {
         MessageFlags,
@@ -53,7 +53,7 @@ class PremiumCommand extends Command {
                         new ActionRowBuilder().addComponents(
                                 new ButtonBuilder()
                                         .setLabel('Get Premium')
-                                        .setURL('https://discord.gg/AeroX')
+                                        .setURL('https://discord.gg/Ez4gCJQDxB')
                                         .setStyle(ButtonStyle.Link),
                         ),
                 );
@@ -69,10 +69,10 @@ export default new PremiumCommand();
 
 /**
  * Project: Falcron
- * Author: itsfizys (Aegis)
- * Organization: AeroX Development
- * GitHub: https://github.com/AeroXDevs
+ * Author: mayankitscsb-droid (Aegis)
+ * Organization: mayankitscsb-droid
+ * GitHub: https://github.com/mayankitscsb-droid/Falcron
  * License: Custom
  *
- * © 2026 AeroX Development. All rights reserved.
+ * © 2026 mayankitscsb-droid. All rights reserved.
  */

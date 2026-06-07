@@ -1,5 +1,5 @@
-// Falcron | AeroX Development
-// Author: itsfizys
+// Falcron
+// Author: mayankitscsb-droid
 import { PermissionFlagsBits } from 'discord.js';
 import { config } from '#config/config';
 
@@ -361,10 +361,10 @@ export const inSameVoiceChannel = (member, guild) => {
 
 /**
  * Project: Falcron
- * Author: itsfizys (Aegis)
- * Organization: AeroX Development
- * GitHub: https://github.com/AeroXDevs
+ * Author: mayankitscsb-droid (Aegis)
+ * Organization: mayankitscsb-droid
+ * GitHub: https://github.com/mayankitscsb-droid/Falcron
  * License: Custom
  *
- * © 2026 AeroX Development. All rights reserved.
+ * © 2026 mayankitscsb-droid. All rights reserved.
  */

@@ -1,5 +1,5 @@
-// Falcron | AeroX Development
-// Author: itsfizys
+// Falcron
+// Author: mayankitscsb-droid
 import { REST } from '@discordjs/rest';
 import { Client, GatewayIntentBits, Options, Partials } from 'discord.js';
 import { createRequire } from 'module';
@@ -179,10 +179,10 @@ export class Bot extends Client {
 
 /**
  * Project: Falcron
- * Author: itsfizys (Aegis)
- * Organization: AeroX Development
- * GitHub: https://github.com/AeroXDevs
+ * Author: mayankitscsb-droid (Aegis)
+ * Organization: mayankitscsb-droid
+ * GitHub: https://github.com/mayankitscsb-droid/Falcron
  * License: Custom
  *
- * © 2026 AeroX Development. All rights reserved.
+ * © 2026 mayankitscsb-droid. All rights reserved.
  */

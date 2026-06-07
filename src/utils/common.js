@@ -1,5 +1,5 @@
-// Falcron | AeroX Development
-// Author: itsfizys
+// Falcron
+// Author: mayankitscsb-droid
 /**
  * Returns a promise that resolves after `ms` milliseconds.
  * @param {number} ms
@@ -11,10 +11,10 @@ export async function sleep(ms) {
 
 /**
  * Project: Falcron
- * Author: itsfizys (Aegis)
- * Organization: AeroX Development
- * GitHub: https://github.com/AeroXDevs
+ * Author: mayankitscsb-droid (Aegis)
+ * Organization: mayankitscsb-droid
+ * GitHub: https://github.com/mayankitscsb-droid/Falcron
  * License: Custom
  *
- * © 2026 AeroX Development. All rights reserved.
+ * © 2026 mayankitscsb-droid. All rights reserved.
  */

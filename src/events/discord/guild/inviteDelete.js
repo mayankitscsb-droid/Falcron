@@ -1,5 +1,5 @@
-// Falcron | AeroX Development
-// Author: itsfizys
+// Falcron
+// Author: mayankitscsb-droid
 export default {
         name: 'inviteDelete',
         async execute({ eventArgs, client }) {
@@ -13,10 +13,10 @@ export default {
 
 /**
  * Project: Falcron
- * Author: itsfizys (Aegis)
- * Organization: AeroX Development
- * GitHub: https://github.com/AeroXDevs
+ * Author: mayankitscsb-droid (Aegis)
+ * Organization: mayankitscsb-droid
+ * GitHub: https://github.com/mayankitscsb-droid/Falcron
  * License: Custom
  *
- * © 2026 AeroX Development. All rights reserved.
+ * © 2026 mayankitscsb-droid. All rights reserved.
  */

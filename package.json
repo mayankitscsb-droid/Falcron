@@ -1,7 +1,7 @@
 {
   "name": "falcron",
   "version": "1.0.0",
-  "description": "A feature-rich, modular Discord bot built with Discord.js — developed by itsfizys under AeroX Development.",
+  "description": "A feature-rich, modular Discord bot built with Discord.js.",
   "type": "module",
   "scripts": {
     "start": "node src/bot.js",
@@ -34,16 +34,15 @@
     "bot",
     "discord.js",
     "falcron",
-    "aerox",
     "modular",
     "invite-tracker",
     "giveaway"
   ],
-  "author": "itsfizys (https://github.com/AeroXDevs)",
+  "author": "mayankitscsb-droid (https://github.com/mayankitscsb-droid)",
   "license": "SEE LICENSE IN LICENSE",
-  "homepage": "https://github.com/AeroXDevs",
+  "homepage": "https://github.com/mayankitscsb-droid/Falcron",
   "bugs": {
-    "url": "https://discord.gg/AeroX"
+    "url": "https://github.com/mayankitscsb-droid/Falcron/issues"
   },
   "engines": {
     "node": ">=18.0.0"

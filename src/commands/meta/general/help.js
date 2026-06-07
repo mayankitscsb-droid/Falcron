@@ -1,5 +1,5 @@
-// Falcron | AeroX Development
-// Author: itsfizys
+// Falcron
+// Author: mayankitscsb-droid
 import { Command } from '#command';
 import {
         MessageFlags,
@@ -261,7 +261,7 @@ class HelpCommand extends Command {
                                 .setStyle(ButtonStyle.Link),
                         new ButtonBuilder()
                                 .setLabel('Support')
-                                .setURL(config.links?.supportServer || 'https://discord.gg/AeroX')
+                                .setURL(config.links?.supportServer || 'https://discord.gg/Ez4gCJQDxB')
                                 .setStyle(ButtonStyle.Link),
                 );
         }
@@ -285,9 +285,7 @@ class HelpCommand extends Command {
 ` +
                                 `${emoji.news} **News** ${emoji.news}
 ` +
-                                `${emoji.arrow} AeroX Development reached 4K Members!
-` +
-                                `${emoji.arrow} Join AeroX and upgrade your experience.
+                                `${emoji.arrow} Falcron bot is ready to help!
 
 ` +
                                 `I can do invite tracking, can manage your server events with greet system, timer, polls and much more! You can checkout my other commands in the context menu!
@@ -374,10 +372,10 @@ export default new HelpCommand();
 
 /**
  * Project: Falcron
- * Author: itsfizys (Aegis)
- * Organization: AeroX Development
- * GitHub: https://github.com/AeroXDevs
+ * Author: mayankitscsb-droid (Aegis)
+ * Organization: mayankitscsb-droid
+ * GitHub: https://github.com/mayankitscsb-droid/Falcron
  * License: Custom
  *
- * © 2026 AeroX Development. All rights reserved.
+ * © 2026 mayankitscsb-droid. All rights reserved.
  */

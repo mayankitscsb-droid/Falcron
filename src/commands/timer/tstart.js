@@ -1,5 +1,5 @@
-// Falcron | AeroX Development
-// Author: itsfizys
+// Falcron
+// Author: mayankitscsb-droid
 import { Command } from '#command';
 import { MessageFlags, ApplicationCommandOptionType, PermissionFlagsBits } from 'discord.js';
 import { timerStore, buildStartComponents, buildEndComponents, formatTime } from '#timerUtils';
@@ -106,10 +106,10 @@ export default new TStartCommand();
 
 /**
  * Project: Falcron
- * Author: itsfizys (Aegis)
- * Organization: AeroX Development
- * GitHub: https://github.com/AeroXDevs
+ * Author: mayankitscsb-droid (Aegis)
+ * Organization: mayankitscsb-droid
+ * GitHub: https://github.com/mayankitscsb-droid/Falcron
  * License: Custom
  *
- * © 2026 AeroX Development. All rights reserved.
+ * © 2026 mayankitscsb-droid. All rights reserved.
  */
